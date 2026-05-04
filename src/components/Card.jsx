@@ -1,13 +1,13 @@
 import './Card.css' ;
 import PP from '../assets/PP.jpg';
 
-function Card(){
+function Card({image, pseudo, email, description}){
     return (
         <article className='card'>
-            <h2>JOJO</h2>
-            <img src={PP} alt="profil picture" />
-            <h3>jojo@gmail.com</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ipsa porro, eum nulla aut saepe quas similique dolor molestiae exercitationem vero in praesentium. Officia odio quas omnis dolorem deserunt laudantium.</p>
+            <h2>{pseudo}</h2>
+            <img src={image} alt="profil picture" />
+            <h3>{email}</h3>
+            <p>{description}</p>
         </article>
     )
 }
