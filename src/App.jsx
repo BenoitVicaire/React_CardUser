@@ -29,7 +29,7 @@ function App() {
       <h1>Liste des Utilisateurs</h1>
 	  {users.map((user)=> (
 			<Card
-				key={user.pseudo}
+				key={user.email}
 				pseudo={user.pseudo}
 				image={user.image}
 				email={user.email}
