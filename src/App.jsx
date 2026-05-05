@@ -19,11 +19,10 @@ const USER={
 	   description:"best lurker ever"
    },
 }
-
 const users = Object.values(USER);
 
 function App() {
-
+	
   return (
     <>
       <h1>Liste des Utilisateurs</h1>
